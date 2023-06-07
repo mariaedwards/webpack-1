@@ -8,7 +8,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].js', // same as entry point key
+    filename: '[name][contenthash].js', // same as entry point key
   },
   module: {
     // loaders
